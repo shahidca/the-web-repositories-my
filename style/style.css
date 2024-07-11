@@ -295,7 +295,9 @@ border: 1px solid #e1dddd;
     align-items: center;
     margin-top: 30px;
  }
- .footer a{
-grid-auto-columns: 0;
-gap: 0px;
+ .social-img{
+    display: flex;
+ }
+ .social-img a{
+   margin-right: 16px;
  }
