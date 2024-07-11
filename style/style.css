@@ -19,6 +19,7 @@ font-size: 16px;
 font-weight: 400;
 opacity: 0.7;
 line-height: 20px;
+text-align: center;
   }
   .container-p-description{
     width: 468px;
@@ -44,10 +45,11 @@ line-height: 36px;
 margin: 16px 0px;
   }
   .container-p-description{
-    position: static;
 width: 468px;
 height: 52px;
 line-height: 25px;
+margin-top: 16px;
+text-align: start;
   }
   .learn-btn{
     align-items: center;
@@ -172,6 +174,12 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     align-items: center;
 
   }
+  .inspitation-p{
+    text-align: center;
+    margin-top: 17px;
+    width: 600px;
+    line-height: 30px;
+  }
   .heading-h4{
     color: rgb(13, 19, 33);
 font-size: 32px;
@@ -183,4 +191,20 @@ text-align: center;
     margin-top: 40px;
     border-radius: 16px;
 border: 2px solid rgba(13, 19, 33, 0.2);
+ }
+ .box-1{
+    width: 364px;
+height: 300px;
+border-radius: 16px;
+align-self: stretch;
+margin: 16px 0px;
+padding: 50px;
+ }
+ .box-bg-color-1{
+    background: rgba(255, 76, 30, 0.05);
+ }
+ .learn-more{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 60px;
  }
