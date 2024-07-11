@@ -192,9 +192,24 @@ text-align: center;
     border-radius: 16px;
 border: 2px solid rgba(13, 19, 33, 0.2);
  }
+ /* my-current-target style start here */
+ .my-current-target{
+    max-width: 1140px;
+   margin: 0 auto;
+   margin-top: 100px;
+ }
+ #box-heading {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ }
+ #box-heading p{
+  text-align: center;
+  line-height: 30px;
+     }
  .box-1{
     width: 364px;
-height: 300px;
 border-radius: 16px;
 align-self: stretch;
 margin: 16px 0px;
@@ -203,8 +218,26 @@ padding: 50px;
  .box-bg-color-1{
     background: rgba(255, 76, 30, 0.05);
  }
+ .box-bg-color-2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+ }
+ .box-bg-color-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+ }
+ .p-p-p{
+    margin-bottom: 26px;
+    line-height: 30px;
+ }
  .learn-more{
     text-decoration: underline;
     cursor: pointer;
-    margin-top: 60px;
+ }
+ .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin-top: 70px;
  }
