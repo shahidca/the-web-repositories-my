@@ -152,7 +152,35 @@ height: 215px;
     border-radius: 16px;
     margin-bottom: 50px;
   }
-  .bg-color{
+  .bg-color-1{
     border-radius: 16px;
 background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
   }
+  .bg-color-2{
+    border-radius: 16px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  }
+  .bg-color-3{
+    border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  }
+  /* My Inspiration style start here */
+  .my-inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .heading-h4{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+  }
+ iframe{
+    margin-top: 40px;
+    border-radius: 16px;
+border: 2px solid rgba(13, 19, 33, 0.2);
+ }
